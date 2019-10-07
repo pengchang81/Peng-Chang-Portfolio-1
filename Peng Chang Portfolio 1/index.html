@@ -484,6 +484,12 @@
                                 <div class="col">
 
                                     <p id="results"></p>
+                                    <p id="results2"></p>
+                                    <p id="results3"></p>
+                                    <p id="results4"></p>
+
+
+                                    </p>
 
                                 </div>
                             </div>
@@ -691,11 +697,18 @@
 
             //Step 3: Output the results
             var output = "The sum of your number is " + sum 
-            var output1 = "The average of your number is " + mean 
-                "Min number is " + min +
-                "Max number is " + max;
-        
-            $("#results").text(output);                                                         
+            var output2 = "The average of your number is " + mean 
+            var output3 = "Min number is " + min
+            var output4 = "Max number is " + max;
+
+            //step 4: Results
+            $("#results").text(output); 
+            
+            $("#results2").text(output2)
+            $("#results3").text(output3)
+            $("#results4").text(output4)
+
+
         });
 
         
