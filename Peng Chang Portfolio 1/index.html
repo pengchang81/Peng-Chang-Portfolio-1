@@ -37,6 +37,12 @@
       Author: BootstrapMade.com
       Author URL: https://bootstrapmade.com
     ======================================================= -->
+
+    <!--Added Syntax-->
+    <link href="Scripts/SyntaxHighlighter/styles/shCore.css" rel="stylesheet" />
+    <link href="Scripts/SyntaxHighlighter/styles/shThemeDefault.css" rel="stylesheet" />
+
+
 </head>
 
 <body>
@@ -56,7 +62,7 @@
                     <li><a href="#header" class="smoothScroll">Home</a></li>
                     <li><a href="#about" class="smoothScroll">About</a></li>
                     <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-                    <li><a href="#journal" class="smoothScroll">Blog</a></li>
+                    <li><a href="#journal" class="smoothScroll">Coding Challenges</a></li>
                     <li><a href="#contact" class="smoothScroll">Contact</a></li>
                 </ul>
 
@@ -110,6 +116,7 @@
     </div>
     <!-- end section about us -->
     <!-- start section services -->
+
     <div id="services">
         <div class="container">
 
@@ -190,13 +197,13 @@
                     <div class="portfolio-container">
 
                         <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-                            <a data-toggle="modal" data-target="#myModal" href="images/portfolio/1.jpg">
+                            <a href="images/portfolio/1.jpg">
                                 <img src="Images/animal-blur-close-up-349758.jpg">
                             </a>
                         </div>
 
                         <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-                            <a data-toggle="modal" data-target="#myModal2" href="images/portfolio/2.jpg">
+                            <a href="images/portfolio/2.jpg">
                                 <img src="Images/animal-betta-desktop-backgrounds-1335971.jpg">
                             </a>
                         </div>
@@ -234,12 +241,12 @@
 
     </div>
     <!-- End section portfolio -->
-    <!-- start section journal -->
+    <!-- start section Coding Challenges -->
     <div id="journal" class="text-left paddsection">
 
         <div class="container">
             <div class="section-title text-center">
-                <h2>journal</h2>
+                <h2>Coding Challenges</h2>
             </div>
         </div>
 
@@ -250,15 +257,12 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="journal-info">
 
-                            <a href="blog-single.html"><img src="Images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+                            <a data-toggle="modal" data-target="#myModal" href="Images/blog-post-1.jpg"><img src="Images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
 
                             <div class="journal-txt">
 
-                                <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
-                                <p class="separator">
-                                    To an English person, it will seem like simplified English
-                                </p>
-
+                                <h4><a data-toggle="modal" data-target="#myModal" class="text-center" href="blog-single.html">MATH EXCERCISE</a></h4>
+                                
                             </div>
 
                         </div>
@@ -267,7 +271,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="journal-info">
 
-                            <a href="blog-single.html"><img src="Images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+                            <a data-toggle="modal" data-target="#myModal2" href="Images/blog-post-2.jpg"><img src="Images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
 
                             <div class="journal-txt">
 
@@ -371,7 +375,7 @@
             </div>
         </div>
     </div>
-    <!-- start sectoion contact -->
+    <!-- start section contact -->
     <!-- start section footer -->
     <div id="footer" class="text-center">
         <div class="container">
@@ -418,33 +422,102 @@
     <!-- Template Main Javascript File -->
     <script src="Script/main.js"></script>
 
+    <!-- Syntax Highlighter added -->
+    <script src="Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
+    <script src="Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+    
 
     <!-- The Modal -->
     <div class="modal" id="myModal">
+
         <div class="modal-dialog">
             <div class="modal-content">
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
+                    <h4 class="modal-title">Javascript Excercise</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    Modal 1 body..
+
+                    <div class="container">
+                        <div class="row">
+                            Math Excercise 5 numbers
+                        </div>
+
+                        <hr style="border: 2px solid black" />
+                        <div class="row" >
+                            <div class="col" id="paddedcol" >
+                                <div class="row">
+                                    
+
+                                        <input type="text" id="input1" placeholder="Enter number 1" />
+                                    
+                                </div>
+                                <div class="row ">
+                                    
+                                        <input type="text" id="input2" placeholder="Enter number 2" />
+                                    
+                                </div>
+                                <div class="row">
+                                    
+                                        <input type="text" id="input3" placeholder="Enter number 3" />
+                                    
+                                </div>
+                                <div class="row">
+                                    
+                                        <input type="text" id="input4" placeholder="Enter number 4" />
+                                    
+                                </div>
+                                <div class="row">
+                                    
+                                        <input type="text" id="input5" placeholder="Enter number 5" />
+                                    
+                                </div>
+
+
+                                <button id="Calculate" class="btn-primary">Calculate</button>
+
+
+                                <div class="col">
+
+                                    <p id="results"></p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <pre class="brush: js">
+                            function foo() {
+            
+                            }
+                            </pre>"
+
+                    </div>
+
                 </div>
 
                 <!-- Modal footer -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
                 </div>
 
             </div>
+
         </div>
+
     </div>
 
+
+
     <div class="modal" id="myModal2">
+
         <div class="modal-dialog">
             <div class="modal-content">
 
@@ -456,14 +529,49 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    Modal 2 body..
-                </div>
+                    Modal 2 Excercise
 
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
+                    <hr style="border: 2px solid black" />
+                    <div class="row " id="paddedCol">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
 
+                                    <input type="text" id="input1" placeholder="Enter number 1" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" id="input2" placeholder="Enter number 2" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" id="input3" placeholder="Enter number 3" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" id="input4" placeholder="Enter number 4" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" id="input5" placeholder="Enter number 5" />
+                                </div>
+                            </div>
+
+                            <button id="Calculate" class="btn-primary">Calculate</button>
+                        </div>
+
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -564,34 +672,48 @@
         </div>
     </div>
 
+    <script>
 
-    <div class="container-fluid">
-        <h1>Responsive Columns</h1>
-        <p>Resize the browser window to see the effect.</p>
-        <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
-        <div class="row">
-            <div class="col-md-4" style="background-color:lavender;">4</div>
-            <div class="col-md-4" style="background-color:lavenderblush;">4</div>
-            <div class="col-md-4" style="background-color:lavender;">4</div>
-        </div>
+        //Use jQuery to add a click event handler to my button
+        $("#Calculate").click(function () {
+            //Step 1: get the user data
+            var num1 = Number($("#input1").val());
+            var num2 = Number($("#input2").val());
+            var num3 = Number($("#input3").val());
+            var num4 = Number($("#input4").val());
+            var num5 = Number($("#input5").val());
 
-        <div class="row">
-            <div class="col-md-4" style="background-color:lavenderblush;">6</div>
-            <div class="col-md-8" style="background-color:lavender;">6</div>
-        </div>
+            //Step 2: Make calculations with the data
+            var sum = num1 + num2 + num3 + num4 + num5;
+            var mean = (num1 + num2 + num3 + num4 + num5) / 5;
+            var min = Math.min(num1, num2, num3, num4, num5);
+            var max = Math.max(num1, num2, num3, num4, num5);
 
-        <div class="row">
-            <div class="col-md-12" style="background-color:lavenderblush;">12</div>
-        </div>
-
-            <div class="row">
-                <div class="col-md-3" style="background-color:lavender;">3</div>
-                <div class="col-md-3" style="background-color:lavenderblush;">3</div>
-                <div class="col-md-3" style="background-color:lavender;">3</div>
-                <div class="col-md-3" style="background-color:lavenderblush;">3</div>
-            </div>
+            //Step 3: Output the results
+            var output = "The sum of your number is " + sum 
+            var output1 = "The average of your number is " + mean 
+                "Min number is " + min +
+                "Max number is " + max;
+        
+            $("#results").text(output);                                                         
+        });
 
         
+    </script>
+
+
+
+    <script>
+        SyntaxHighlighter.all()
+    </script>
+
+
+        
+
+
+
+
+
 </body>
 </html>
 
@@ -601,9 +723,5 @@
 
 
 
-
-</body>
-
-</html>
 
 

@@ -626,6 +626,9 @@ nav ul li a {
   text-transform: uppercase;
 }
 
+#paddedcol .row {
+    padding-bottom: 10px;
+}
 .credits {
   font-size: 13px;
 }
