@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Alex Smith.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
+      strings: ["Peng Chang.", "a Designer.", "a Developer.", "a Freelancer."],
       typeSpeed: 100,
       loop: true,
     });
@@ -121,10 +121,10 @@ $(document).ready(function() {
 
         // The "opener" function should return the element from which popup will be zoomed in
         // and to which popup will be scaled down
-        // By defailt it looks for an image tag:
+        // By default it looks for an image tag:
         opener: function(openerElement) {
           // openerElement is the element on which popup was initialized, in this case its <a> tag
-          // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+          // you don't need to add "opener" option if this code matches your needs, it's default one.
           return openerElement.is('img') ? openerElement : openerElement.find('img');
         }
       }
@@ -138,7 +138,7 @@ $(document).ready(function() {
 });
 
 // ========================================================================= //
-//  Porfolio isotope and filter
+//  Portfolio isotope and filter
 // ========================================================================= //
 $(window).load(function(){
 

@@ -3,10 +3,15 @@
 
 <head>
     <!-- meta -->
-    <meta charset="utf-8">
+    <!--<meta charset="utf-8">-->
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Folio - Personal Portfolio Template</title>
+    <!--fizzbuzz-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Peng Chang | Web Developer</title>
     <meta content="" name="keywords">
     <meta content="" name="description">
 
@@ -16,32 +21,46 @@
     <!-- Bootstrap CSS File -->
 
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- Libraries CSS Files -->
-    <link href="Content/ionicons.min.css" rel="stylesheet" />
+    <!--<link href="Content/ionicons.min.css" rel="stylesheet" />-->
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/owl.carousel.min.css" rel="stylesheet" />
     <link href="Content/magnific-popup.css" rel="stylesheet" />
     <link href="Content/hover.min.css" rel="stylesheet" />
 
+    <!--fizzbuzz-->
+    <link rel="stylesheet" type="text/css" href="Content/fbstyle.css">
 
     <!-- Main Stylesheet File -->
     <link href="Content/style.css" rel="stylesheet" />
     <!-- Responsive css -->
     <link href="Content/responsive.css" rel="stylesheet" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/Logo.png">
 
     <!-- =======================================================
-      Theme Name: Folio
+      Theme Name: Peng Chang Portfolio
       Theme URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
       Author: BootstrapMade.com
       Author URL: https://bootstrapmade.com
     ======================================================= -->
-
     <!--Added Syntax-->
     <link href="Scripts/SyntaxHighlighter/styles/shCore.css" rel="stylesheet" />
     <link href="Scripts/SyntaxHighlighter/styles/shThemeDefault.css" rel="stylesheet" />
 
+    <style>
+        .text-color {
+            color: #404040;
+        }
+
+        .pictureSize {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    </style>
 
 </head>
 
@@ -51,11 +70,9 @@
     <nav id="main-nav">
         <div class="row">
             <div class="container">
-
                 <div class="logo">
-                    <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+                    <a href="index.html"><img src="Images/MyPortfolio.png" alt="logo"></a>
                 </div>
-
                 <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
                 <ul class="nav-menu list-unstyled">
@@ -65,7 +82,6 @@
                     <li><a href="#journal" class="smoothScroll">Coding Challenges</a></li>
                     <li><a href="#contact" class="smoothScroll">Contact</a></li>
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -75,15 +91,16 @@
 
         <div class="container">
             <div class="header-content">
-                <h1> Peng Chang </h1>
-                <p>designer, developer, photographer</p>
+
+                <h1>I'm <span class="typed"></span></h1>
+
+                <p>HTML, C#, JavaScript, MVC, .Net </p>
 
                 <ul class="list-unstyled list-social">
                     <li><a href="#"><i class="ion-social-twitter"></i></a></li>
                     <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                    <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
+                    <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+                    <li><a href="#"><i class="ion-social-github"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -97,7 +114,7 @@
                 <div class="col-lg-4 ">
                     <div class="div-img-bg">
                         <div class="about-img">
-                            <img src="Images/beach-dawn-desktop-backgrounds-1532771.jpg" class="img-responsive" alt="me">
+                            <img src="Images/beach-dawn-desktop-backgrounds-1532771.png" class="img-responsive" alt="me">
                         </div>
                     </div>
                 </div>
@@ -105,471 +122,703 @@
                 <div class="col-lg-7">
                     <div class="about-descr">
 
-                        <p class="p-heading">im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
-                        <p class="separator">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>
+                        <p class="p-heading"> About Me</p>
+                        <p class="separator">My Name is Peng Chang. I am from Charlotte, North Carolina. I have a bachelor's degree in Health Science. I acquired knowledge of the stock market as an Instructor at VectorVest, Inc. I enjoy trading as much as I do coding. I specialize in web development using HTML, CSS, JavaScript and C# for .NET applications.</p>
 
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
+
+
     <!-- end section about us -->
     <!-- start section services -->
 
     <div id="services">
         <div class="container">
-
+            <br />
+            <h3 class="m-heading text-center" style="font-size:16px;">
+                <span class="text-color">My Proficiencies</span>
+            </h3>
+            <br />
             <div class="services-carousel owl-theme">
-
                 <div class="services-block">
-
-                    <i class="ion-ios-browsers-outline"></i>
-                    <span>UI/UX DESIGN</span>
-                    <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-ios-lightbulb-outline"></i>
-                    <span>BRAND IDENTITY</span>
-                    <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-ios-color-wand-outline"></i>
-                    <span>WEB DESIGN</span>
-                    <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-social-android-outline"></i>
-                    <span>MOBILE APPS</span>
-                    <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-                </div>
-
-                <div class="services-block">
-
-                    <i class="ion-ios-camera-outline"></i>
-                    <span>PHOTOGRAPHY</span>
-                    <p class="separator">To an English person, it will seem like simplified English,told me what </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-    <!-- end section services -->
-    <!-- start section portfolio -->
-    <div id="portfolio" class="text-center paddsection">
-
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>My Portfolio</h2>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="portfolio-list">
-
-                        <ul class="nav list-unstyled" id="portfolio-flters">
-                            <li class="filter filter-active" data-filter=".all">all</li>
-                            <li class="filter" data-filter=".branding">branding</li>
-                            <li class="filter" data-filter=".mockups">mockups</li>
-                            <li class="filter" data-filter=".uikits">ui kits</li>
-                            <li class="filter" data-filter=".webdesign">web design</li>
-                            <li class="filter" data-filter=".photography">photography</li>
-                        </ul>
-
+                    <i class="fa fa-code fa-2x"></i>
+                    <div>
+                        <h4>JavaScript</h4>
+                        <p class="separator"></p>
                     </div>
+                </div>
+                <div class="services-block">
+                    <i class="fa fa-language fa-2x"></i>
+                    <div>
+                        <h4>C#</h4>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+                <div class="services-block">
+                    <i class="fa fa-database"></i>
+                    <div>
+                        <h4>SQL</h4>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+                <div class="services-block">
+                    <i class="fa fa-windows fa-2x"></i>
+                    <div>
+                        <h4>ASP.NET</h4>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+                <div class="services-block">
+                    <i class="fa fa-css3 fa-2x"></i>
+                    <div>
+                        <h4>CSS</h4>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+                <div class="services-block">
 
-                    <div class="portfolio-container">
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
-                            <a href="images/portfolio/1.jpg">
-                                <img src="Images/animal-blur-close-up-349758.jpg">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography">
-                            <a href="images/portfolio/2.jpg">
-                                <img src="Images/animal-betta-desktop-backgrounds-1335971.jpg">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn">
-                            <a data-toggle="modal" data-target="#myModal3" href="images/portfolio/3.jpg">
-                                <img src="Images/architecture-buildings-city-325185.jpg">
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
-                            <a data-toggle="modal" data-target="#myModal4" href="images/portfolio/4.jpg">
-                                <img src="Images/background-beach-daylight-1451360.jpg">
-
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
-                            <a data-toggle="modal" data-target="#myModal5" href="images/portfolio/5.jpg">
-                                <img src="Images/beach-dawn-desktop-backgrounds-1532771.jpg">
-
-                            </a>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
-                            <a data-toggle="modal" data-target="#myModal6" href="images/portfolio/6.jpg">
-                                <img src="Images/birds-of-paradise-flower-bloom-close-64272.jpg">
-                            </a>
-                        </div>
-
+                    <i class="fa fa-html5 fa-2x"></i>
+                    <div>
+                        <h4>HTML</h4>
+                        <p class="separator"></p>
                     </div>
                 </div>
             </div>
         </div>
-
-    </div>
-    <!-- End section portfolio -->
-    <!-- start section Coding Challenges -->
-    <div id="journal" class="text-left paddsection">
-
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>Coding Challenges</h2>
+        <!-- end section services -->
+        <!-- start section portfolio -->
+        <div id="portfolio" class="text-center paddsection">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>My Portfolio</h2>
+                </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="journal-block">
+            <div class="container">
                 <div class="row">
+                    <div class="col-md-12">
+                        <div class="portfolio-list">
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="journal-info">
+                            <ul class="nav list-unstyled" id="portfolio-flters">
+                                <li class="filter filter-active" data-filter=".all">All</li>
+                                <li class="filter" data-filter=".blog">Blog</li>
+                                <li class="filter" data-filter=".bugtracker">Bug Tracker</li>
+                                <li class="filter" data-filter=".financialportal">Financial Portal</li>
+                                <li class="filter" data-filter=".financialportal">Financial Portal API</li>
 
-                            <a data-toggle="modal" data-target="#myModal" href="Images/blog-post-1.jpg"><img src="Images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
-
-                            <div class="journal-txt">
-
-                                <h4><a data-toggle="modal" data-target="#myModal" class="text-center" href="blog-single.html">MATH EXCERCISE</a></h4>
-                                
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="journal-info">
-
-                            <a data-toggle="modal" data-target="#myModal2" href="Images/blog-post-2.jpg"><img src="Images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
-
-                            <div class="journal-txt">
-
-                                <h4><a href="#blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
-                                <p class="separator">
-                                    To an English person, it will seem like simplified English
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="journal-info">
-
-                            <a href="blog-single.html"><img src="Images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
-
-                            <div class="journal-txt">
-
-                                <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
-                                <p class="separator">
-                                    To an English person, it will seem like simplified English
-                                </p>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- End section journal -->
-    <!-- start sectoion contact -->
-    <div id="contact" class="paddsection">
-        <div class="container">
-            <div class="contact-block1">
-                <div class="row">
-
-                    <div class="col-lg-6">
-                        <div class="contact-contact">
-
-                            <h2 class="mb-30">GET IN TOUCH</h2>
-
-                            <ul class="contact-details">
-                                <li><span>1439 Highfield Court</span></li>
-                                <li><span>Charlotte, North Carolina, United States</span></li>
-                                <li><span>704-737-6845</span></li>
-                                <li><span>pengchang81@yahoo.com</span></li>
                             </ul>
 
                         </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <form action="" method="post" role="form" class="contactForm">
-                            <div class="row">
-
-                                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                                <div id="errormessage"></div>
-
-                                <div class="col-lg-6">
-                                    <div class="form-group contact-block1">
-                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                        <div class="validation"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                        <div class="validation"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                        <div class="validation"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                        <div class="validation"></div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12">
-                                    <input type="submit" class="btn btn-defeault btn-send" value="Send message">
-                                </div>
+                        <div class="portfolio-container">
+                            <div class="col-lg-4 col-md-6 portfolio-thumbnail all blog">
+                                <a href="https://pengchangblog.azurewebsites.net/">
+                                    <img src="Images/gold-pen-on-journal.png" />
+                                    <h4>BLOG</h4>
+                                </a>
 
                             </div>
-                        </form>
+
+                            <div class="col-lg-4 col-md-6 portfolio-thumbnail all bugtracker">
+                                <a href="https://pengbugtracker.azurewebsites.net/">
+                                    <img src="Images/blue-and-black.png" />
+                                    <h4>BUG TRACKER</h4>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-thumbnail all finacialportal">
+                                <a href="https://pengbugtracker.azurewebsites.net/">
+                                    <img src="Images/bank-bars-.png">
+                                    <h4>FINANCIAL PORTAL</h4>
+                                    <br>coming soon...<br />
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-thumbnail all finacialportalapi">
+                                <a href="https://pengbugtracker.azurewebsites.net/">
+                                    <img src="Images/background-beach-daylight-1451360.jpg">
+                                    <h4>FINANCIAL PORTAL API</h4>
+                                    <br>coming soon...<br />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- start section contact -->
-    <!-- start section footer -->
-    <div id="footer" class="text-center">
-        <div class="container">
-            <div class="socials-media text-center">
+        <!-- End section portfolio -->
+        <!-- start section Coding Challenges -->
+        <div id="journal" class="text-left paddsection">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Coding Challenges</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="journal-block">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 pictureSize">
+                            <div class="journal-info">
+                                <a data-toggle="modal" data-target="#myModal" href="Images/calculator-square.png"><img src="Images/calculator-square.png" class="img-responsive" alt="img"></a>
+                                <div class="journal-txt">
+                                    <h4><a data-toggle="modal" data-target="#myModal" class="text-center" href="blog-single.html">MATH EXCERCISE</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6  pictureSize">
+                            <div class="journal-info">
 
-                <ul class="list-unstyled">
-                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                    <li><a href="#"><i class="ion-social-tumblr"></i></a></li>
-                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
-                </ul>
+                                <a data-toggle="modal" data-target="#myModal2" href="Images/factorial.png"><img src="Images/factorial.png" class="img-responsive" alt="img"></a>
 
+                                <div class="journal-txt">
+
+                                    <h4><a data-toggle="modal" data-target="#myModal" class="text-center" href="blog-single.html">FACTORIAL</a></h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6  pictureSize">
+                            <div class="journal-info">
+
+                                <a data-toggle="modal" data-target="#myModal3" href="Images/palindrome.png"><img src="Images/palindrome.png" class="img-responsive" alt="img"></a>
+
+                                <div class="journal-txt">
+
+                                    <h4><a data-toggle="modal" data-target="#myModal" class="text-center" href="blog-single.html">PALINDROME</a></h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6  pictureSize">
+                            <div class="journal-info">
+
+                                <a data-toggle="modal" data-target="#myModal4" href="Images/fizzbuzz.png"><img src="Images/fizzbuzz.png" class="img-responsive" alt="img"></a>
+
+                                <div class="journal-txt">
+
+                                    <h4><a data-toggle="modal" data-target="#myModal" class="text-center" href="blog-single.html">FIZZBUZZ</a></h4>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
-            <p>&copy; Copyrights Folio. All rights reserved.</p>
+        </div>
+        <!-- End section journal -->
+        <!-- start section contact -->
+        <div id="contact" class="paddsection">
+            <div class="container">
+                <div class="contact-block1">
+                    <div class="row">
 
-            <div class="credits">
-                <!--
+                        <div class="col-lg-6">
+                            <div class="contact-contact">
+
+                                <h3 class="mb-30">CONTACT INFORMATION</h3>
+
+                                <ul class="contact-details">
+                                    <li><span>Peng Chang</span></li>
+                                    <li><span>Charlotte, North Carolina  United States</span></li>
+                                    <li><span>704-737-6845</span></li>
+                                    <li><span>pengchang81@yahoo.com</span></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <form action="" method="post" role="form" class="contactForm">
+                                <div class="row">
+
+                                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                                    <div id="errormessage">Please fill out the form.</div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group contact-block1">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                            <div class="validation"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                            <div class="validation"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                            <div class="validation"></div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="message" id="emmessage" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                            <div class="validation"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <input type="submit" class="btn btn-defeault btn-send" id="emailsubmit" value="Send message">
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start section contact -->
+        <!-- start section footer -->
+        <div id="footer" class="text-center">
+            <div class="container">
+                <div class="socials-media text-center">
+
+                    <ul class="list-unstyled">
+
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                        <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="#"><i class="ion-social-github"></i></a></li>
+                    </ul>
+
+                </div>
+
+                <p>&copy; Copyrights Folio. All rights reserved.</p>
+
+                <div class="credits">
+                    <!--
                   All the links in the footer should remain intact.
                   You can delete the links only if you purchased the pro version.
                   Licensing information: https://bootstrapmade.com/license/
                   Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Folio
                 -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-
-        </div>
-    </div>
-    <!-- End section footer -->
-    <!-- JavaScript Libraries -->
-    <script src="Script/jquery.min.js"></script>
-    <script src="Script/jquery-migrate.min.js"></script>
-    <script src="Script/bootstrap.bundle.min.js"></script>
-    <script src="Script/typed.js"></script>
-    <script src="Script/owl.carousel.min.js"></script>
-    <script src="Script/magnific-popup.min.js"></script>
-    <script src="Script/isotope.pkgd.min.js"></script>
-
-    <!-- Contact Form JavaScript File -->
-    <script src="Script/contactform.js"></script>
-
-    <!-- Template Main Javascript File -->
-    <script src="Script/main.js"></script>
-
-    <!-- Syntax Highlighter added -->
-    <script src="Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
-    <script src="Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
-    
-
-    <!-- The Modal -->
-    <div class="modal" id="myModal">
-
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Javascript Excercise</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    Designed by <a href="https://bootstrapmade.com/">Peng Chang</a>
                 </div>
 
-                <!-- Modal body -->
-                <div class="modal-body">
+            </div>
+        </div>
+        <!-- End section footer -->
+        <!--Modal 4 FIzzBuzz-->
+        <!--<script src="fizzbuzz.js"></script>-->
+        <!----------------------------------- Modal 1  ---------------------------------------->
+        <div class="modal" id="myModal">
 
-                    <div class="container">
-                        <div class="row">
-                            Math Excercise 5 numbers
-                        </div>
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
 
-                        <hr style="border: 2px solid black" />
-                        <div class="row" >
-                            <div class="col" id="paddedcol" >
-                                <div class="row">
-                                    
+                    <!-- Modal 1 Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">JavaScript Exercise</h4>
+                        <button type="button" class="close" data-dismiss="modal">x</button>
+                    </div>
 
-                                        <input type="text" id="input1" placeholder="Enter number 1" />
-                                    
+                    <!-- Modal 1 body -->
+                    <div class="modal-body">
+
+                        <div>
+
+                            <!--<button type="button" class="btn btn-info btn-lg btn-block">MATH CALCULATION</button>-->
+                            <button type="button" class="btn btn-lg btn-primary btn-block" disabled><font size="6">MATH CALCULATION</font></button>
+
+
+                            <hr style="border: 2px solid black" />
+                            <div class="row">
+                                <div class="col-md-6" id="paddedcol">
+                                    <div class="row">
+
+                                        <input type="text" id="input1" class="form-control" placeholder="Enter number 1" />
+
+                                    </div>
+                                    <div class="row">
+
+                                        <input type="text" id="input2" class="form-control" placeholder="Enter number 2" />
+
+                                    </div>
+                                    <div class="row">
+
+                                        <input type="text" id="input3" class="form-control" placeholder="Enter number 3" />
+
+                                    </div>
+                                    <div class="row">
+
+                                        <input type="text" id="input4" class="form-control" placeholder="Enter number 4" />
+
+                                    </div>
+                                    <div class="row">
+
+                                        <input type="text" id="input5" class="form-control" placeholder="Enter number 5" />
+
+                                    </div>
+
+                                    <!--Buttons-->
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <!--<button id="Calculate" class="btn btn-sm btn-success text-md-right">Calculate-->
+                                            <button id="Calculate" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Calculate</button>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <!--<button id="" class="btn btn-sm btn-danger" >Clear</button>-->
+                                            <button id="Clear" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Clear</button>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <!--<button id="Show" class="btn btn-sm btn-primary">Code</button>-->
+                                            <button id="Show" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Show</button>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="row ">
-                                    
-                                        <input type="text" id="input2" placeholder="Enter number 2" />
-                                    
-                                </div>
-                                <div class="row">
-                                    
-                                        <input type="text" id="input3" placeholder="Enter number 3" />
-                                    
-                                </div>
-                                <div class="row">
-                                    
-                                        <input type="text" id="input4" placeholder="Enter number 4" />
-                                    
-                                </div>
-                                <div class="row">
-                                    
-                                        <input type="text" id="input5" placeholder="Enter number 5" />
-                                    
-                                </div>
 
-
-                                <button id="Calculate" class="btn-primary">Calculate</button>
-
-
-                                <div class="col">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-12 text-capitalize h3 text-center">Results</div>
+                                    </div>
 
                                     <p id="results"></p>
                                     <p id="results2"></p>
                                     <p id="results3"></p>
                                     <p id="results4"></p>
-
-
-                                    </p>
+                                    <p id="results5"></p>
 
                                 </div>
                             </div>
 
+
+                            <div class="row">
+                                <div class="col-md-12" id="Code" style="font-size: 10pt">
+                                    <pre class="brush: js">
+
+                                    $("#Calculate").click(function () {
+                                        var num1 = Number($("#input1").val());
+                                        var num2 = Number($("#input2").val());
+                                        var num3 = Number($("#input3").val());
+                                        var num4 = Number($("#input4").val());
+                                        var num5 = Number($("#input5").val());
+
+                                        //Step 2: Make calculations with the data
+                                        var sum = num1 + num2 + num3 + num4 + num5;
+                                        var mean = (num1 + num2 + num3 + num4 + num5) / 5;
+                                        var min = Math.min(num1, num2, num3, num4, num5);
+                                        var max = Math.max(num1, num2, num3, num4, num5);
+                                        var product = num1 * num2 * num3 * num4 * num5;
+
+                                        //Step 3: Output the results
+                                        var output = "The sum of your number is " + sum
+                                        var output2 = "The average of your number is " + mean
+                                        var output3 = "Min number is " + min
+                                        var output4 = "Max number is " + max;
+                                        var output5 = "The product of your number is " + product
+
+                                        //step 4: Results
+                                        $("#results").text(output);
+                                        $("#results2").text(output2)
+                                        $("#results3").text(output3)
+                                        $("#results4").text(output4)
+                                        $("#results5").text(output5)
+
+
+                                    });
+
+                                    </pre>
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
 
-                    <div class="row">
-                        <pre class="brush: js">
-                            function foo() {
-            
-                            }
-                            </pre>"
-
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
                     </div>
 
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
                 </div>
 
             </div>
 
         </div>
 
-    </div>
 
 
+        <!----------------------------------- Modal 2  ---------------------------------------->
+        <div class="modal" id="myModal2">
 
-    <div class="modal" id="myModal2">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
 
-        <div class="modal-dialog">
-            <div class="modal-content">
+                    <!-- Modal 2 Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">JavaScript Exercise</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- Modal body -->
+                    <div class="col-sm-12 text-center h1 font-weight-bold text-dark">
+                        FACTORIAL
+
+                        <h4>Enter a number and press Calculate</h4>
+                        <hr style="border: 2px solid black" />
+                        <div class="row " id="paddedCol">
+
+                            <br />
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-md-3">
+
+                                        <input type="text" id="factorialinput1" class="form-control" placeholder="Enter number 1" />
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="col-md-12 text-capitalize h3 bg-light text-center">Results</div>
+                                        </div>
+
+                                        <p id="factorialresults"></p>
+
+                                    </div>
+
+
+                                </div>
+
+                                <br />
+                                <!--Buttons-->
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <button id="factorialcalculate" class="btn btn-sm btn-primary text-md-right">Calculate</button>
+
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <button id="factorialclear" class="btn btn-sm btn-outline-primary">Clear</button>
+
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <button id="factorialshow" class="btn btn-sm btn-outline-primary">Code</button>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12" id="factorialcode" style="font-size: 10pt">
+
+                                        <pre class="brush: js">
+
+                                          $("#factorialcalculate").click(function () {
+                                            //Step 1: get the user data
+                                            var factorialnum1 = Number($("#factorialinput1").val());
+                                            var factorialoutput = 1;
+
+                                            //Step 2: Make calculations with the data
+
+                                            for (var i = 1; i <= factorialnum1; i++) {
+                                                factorialoutput *= i;
+                                            };
+                                      
+
+                                            //step 3: Results
+                                            $("#factorialresults").text(factorialoutput)
+
+                                            });
+
+                                            //Modal 2 clear button
+                                            $("#factorialclear").click(function () {
+                                                $("#factorialresults").text("")        
+
+                                            });
+
+
+                                            //Modal 2 Show & Hide Code
+                                            $("#factorialcode").hide();
+                                            $("#factorialshow").click(function () {
+                                                $("#factorialcode").toggle()
+                                          });
+
+                                        </pre>
+                                    </div>
+                                </div>
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <!----------------------------------- Modal 3 PALINDROME ---------------------------------------->
 
-                <!-- Modal body -->
-                <div class="modal-body">
-                    Modal 2 Excercise
+        <div class="modal" id="myModal3">
 
-                    <hr style="border: 2px solid black" />
-                    <div class="row " id="paddedCol">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
 
-                                    <input type="text" id="input1" placeholder="Enter number 1" />
-                                </div>
-                            </div>
+                    <!-- Modal 3 Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">JavaScript Exercise</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <br />
+                    <!-- Modal 3 body -->
+                    <div class="col-sm-12 text-center h1 font-weight-bold text-dark">
+                        PALINDROME
+
+                        <br />
+                        <br />
+
+                        <!--Input column-->
+                        <div class="col-md-6">
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" id="input2" placeholder="Enter number 2" />
+                                    <input id="txtWord" type="text" class="spc-wide" placeholder="Enter a word" />
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" id="input3" placeholder="Enter number 3" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" id="input4" placeholder="Enter number 4" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" id="input5" placeholder="Enter number 5" />
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-12 text-capitalize h3 bg-light text-center">Results</div>
+                                    </div>
+
+                                    <p id="outputWord"></p>
+
                                 </div>
                             </div>
 
-                            <button id="Calculate" class="btn-primary">Calculate</button>
+
+
+
+
+
+
+
+
+                            <br />
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <button id="btnWord" class="btn btn-primary btn-md spc-wide">Start</button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button id="btnClearPalindrome" class="btn btn-danger btn-sm spc-wide">Clear</button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button id="pshow" class="btn btn-danger btn-sm spc-wide">Code</button>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12" id="factorialcode" style="font-size: 10pt">
+
+                                    <pre class="brush: js">
+
+                                     $("#btnWord").click(function () {
+
+                                        var input = $("#txtWord").val();
+                                        var userInput = "";
+
+                                        for (var i = input.length - 1; i >= 0; i--) {
+                                            userInput += input.substring(i, 1);
+                                        }
+
+                                        if (userInput == input) {
+                                            $("#outputWord").text("This is Palindrome:" + ' ' + userInput);
+                                        } else {
+                                            $("#outputWord").text("This is not Palindrome:" + ' ' + userInput);
+                                        }
+                                    });
+
+                                    //Clear button
+                                    $("#btnClearPalindrome").click(function () {
+                                        $("#outputWord").text("");
+                                        //$("#txtWord").val('');
+                                    });
+
+                                    //Show & Hide Code
+                                    $("#palindromecode").hide();
+                                    $("#palindromeShow").click(function () {
+                                        $("#palindromecode").toggle()
+                                    });
+
+
+
+                                    </pre>
+
+                                </div>
+                            </div>
+
                         </div>
 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!----------------------------------- Modal 4  ---------------------------------------->
+        <div class="modal" id="myModal4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    Modal 4 Header
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div>
+
+                        <p>How to FizzBuzz</p>
+
+
+                    </div>
+                    <div>
+                        <img src="Images/FizzBuzzLogo.png" class="responsive">
+                        <div class="rev-style">
+                            <div class="rev-style-headingB">Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".</div>
+                            <label><span>Enter a number:</span><input id="Fizzvalue" type="number" name="fizz" value="3"></label>
+                            <label><span>Enter another number:</span><input id="Buzzvalue" type="number" name="buzz" value="5"></label>
+                            <label><span></span><input onclick="buzzIt()" type="submit" value="Buzz It" /></label>
+                            <label><span>Results:</span></label><br />
+                            <p id="fbresults"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!----------------------------------- Modal 5  ---------------------------------------->
+        <div class="modal" id="myModal5">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal 5 Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal 5 body..
                     </div>
 
                     <!-- Modal footer -->
@@ -580,160 +829,214 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="modal" id="myModal3">
-        <div class="modal-dialog">
-            <div class="modal-content">
+        <!----------------------------------- Modal 6  ---------------------------------------->
+        <div class="modal" id="myModal6">
+            <div class="modal-dialog">
+                <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <!-- Modal 6 Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Modal 6 body..
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
                 </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    Modal 3 body..
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-
             </div>
         </div>
+                
+        <!-- JavaScript Libraries -->
+        <script src="Script/jquery.min.js"></script>
+        <script src="Script/jquery-migrate.min.js"></script>
+        <script src="Script/bootstrap.bundle.min.js"></script>
+        <script src="Script/typed.js"></script>
+        <script src="Script/owl.carousel.min.js"></script>
+        <script src="Script/magnific-popup.min.js"></script>
+        <script src="Script/isotope.pkgd.min.js"></script>
+
+        <!-- Contact Form JavaScript File -->
+        <script src="Script/contactform.js"></script>
+
+        <!--SMTP-->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <script src="Scripts/Email.js"></script>
+
+
+        <!-- Template Main JavaScript File -->
+        <script src="Script/main.js"></script>
+
+        <!-- Syntax Highlighter added -->
+        <script src="Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
+        <script src="Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+
+        <!--Custom animated modal script from CodePen---->
+        <script src="Script/Custom.js"></script>
+               
+        <script>
+
+            //Modal 1 Math Exercise
+            $("#Calculate").click(function () {
+                //Step 1: get the user data
+                var num1 = Number($("#input1").val());
+                var num2 = Number($("#input2").val());
+                var num3 = Number($("#input3").val());
+                var num4 = Number($("#input4").val());
+                var num5 = Number($("#input5").val());
+
+                //Step 2: Make calculations with the data
+                var sum = num1 + num2 + num3 + num4 + num5;
+                var mean = (num1 + num2 + num3 + num4 + num5) / 5;
+                var min = Math.min(num1, num2, num3, num4, num5);
+                var max = Math.max(num1, num2, num3, num4, num5);
+                var product = num1 * num2 * num3 * num4 * num5;
+
+                //Step 3: Output the results
+                var output = "The sum of your number is " + sum
+                var output2 = "The average of your number is " + mean
+                var output3 = "Min number is " + min
+                var output4 = "Max number is " + max;
+                var output5 = "The product of your number is " + product
+
+                //step 4: Results
+                $("#results").text(output);
+                $("#results2").text(output2)
+                $("#results3").text(output3)
+                $("#results4").text(output4)
+                $("#results5").text(output5)
+            });
+
+            //clear button
+            $("#Clear").click(function () {
+                $("#results,#results2,#results3,#results4,#results5,#results6").text("")
+            });
+
+            //Show & Hide Code
+            $("#Code").hide();
+            $("#Show").click(function () {
+                $("#Code").toggle()
+            });
+
+        </script>
+
+        <script>
+            //Modal 2 Factorial Exercise ------
+            $("#factorialcalculate").click(function () {
+                //Step 1: get the user data
+                var factorialnum1 = Number($("#factorialinput1").val());
+                var factorialoutput = 1;
+
+                //Step 2: Make calculations with the data
+                for (var i = 1; i <= factorialnum1; i++) {
+                    factorialoutput *= i;
+                };
+
+                //step 3: Results
+                $("#factorialresults").text(factorialoutput)
+            });
+
+            //Clear button
+            $("#factorialclear").click(function () {
+                $("#factorialresults").text("")
+            });
+
+            //Show & Hide Code
+            $("#factorialcode").hide();
+            $("#factorialshow").click(function () {
+                $("#factorialcode").toggle()
+            });
+        </script>
+
+
+
+        <script>
+            //Modal 3 Palindrome
+            $("#btnWord").click(function () {
+
+                var input = $("#txtWord").val();
+                var userInput = "";
+
+                for (var i = input.length - 1; i >= 0; i--) {
+                    userInput += input[i];
+                }
+
+                if (userInput == input) {
+                    $("#outputWord").text("This is Palindrome:" + ' ' + userInput);
+                } else {
+                    $("#outputWord").text("This is not Palindrome:" + ' ' + userInput);
+                }
+            });
+
+            //Clear button
+            $("#btnClearPalindrome").click(function () {
+                $("#outputWord").text("");
+                $("#txtWord").val('');
+            });
+
+            //Show & Hide Code
+            $("#pcode").hide();
+            $("#pshow").click(function () {
+                $("#pcode").toggle();
+                //if ($(this.text() == "Show Code") {
+                //    $(this).text("Hide Code");
+                //} else {
+                //    $(this).text("Show Code");
+                //}
+            });
+
+        </script>
+        <!--Modal 4 FizzBuzz-->
+        <script>
+            function FizzBuzzA(value1, value2) {
+                let returnValue = "";
+                for (let i = 1; i <= 100; i++) {
+                    if (i % value1 == 0 && i % value2 == 0) {
+                        returnValue += 'FizzBuzz ';
+                    }
+                    else if (i % value1 == 0) {
+                        returnValue += 'Fizz ';
+                    }
+                    else if (i % value2 == 0) {
+                        returnValue += 'Buzz ';
+                    }
+                    else {
+                        returnValue += i + ' ';
+                    }
+                }
+                return returnValue;
+            }
+
+            //Call and use it-->
+            function buzzIt() {
+                let output = "";
+                let val1 = document.getElementById('Fizzvalue').value;
+                let val2 = document.getElementById('Buzzvalue').value;
+                output = FizzBuzzA(val1, val2);
+                document.getElementById('fbresults').innerHTML = output;
+            }
+        </script>
+
+
+        <script>
+            SyntaxHighlighter.all()
+        </script>
     </div>
-
-    <div class="modal" id="myModal4">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    Modal 4 body..
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="myModal5">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    Modal 5 body..
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" id="myModal6">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    Modal 6 body..
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <script>
-
-        //Use jQuery to add a click event handler to my button
-        $("#Calculate").click(function () {
-            //Step 1: get the user data
-            var num1 = Number($("#input1").val());
-            var num2 = Number($("#input2").val());
-            var num3 = Number($("#input3").val());
-            var num4 = Number($("#input4").val());
-            var num5 = Number($("#input5").val());
-
-            //Step 2: Make calculations with the data
-            var sum = num1 + num2 + num3 + num4 + num5;
-            var mean = (num1 + num2 + num3 + num4 + num5) / 5;
-            var min = Math.min(num1, num2, num3, num4, num5);
-            var max = Math.max(num1, num2, num3, num4, num5);
-
-            //Step 3: Output the results
-            var output = "The sum of your number is " + sum 
-            var output2 = "The average of your number is " + mean 
-            var output3 = "Min number is " + min
-            var output4 = "Max number is " + max;
-
-            //step 4: Results
-            $("#results").text(output); 
-            
-            $("#results2").text(output2)
-            $("#results3").text(output3)
-            $("#results4").text(output4)
-
-
-        });
-
-        
-    </script>
-
-
-
-    <script>
-        SyntaxHighlighter.all()
-    </script>
-
-
-        
-
 
 
 
 
 </body>
 </html>
-
-
-
-
-
 
 
 
