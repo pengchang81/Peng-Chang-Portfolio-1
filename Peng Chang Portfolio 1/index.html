@@ -390,7 +390,6 @@
             </div>
         </div>
         <!-- End section footer -->
-        
         <!--<script src="fizzbuzz.js"></script>-->
         <!----------------------------------- Modal 1  ---------------------------------------->
         <div class="modal" id="myModal">
@@ -624,7 +623,7 @@
 
                                 </div>
                             </div>
-                                                        
+
                             <br />
 
                             <div class="row">
@@ -640,7 +639,7 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-md-12" id="factorialcode" style="font-size: 10pt">
+                                <div class="col-md-12" id="pcode" style="font-size: 10pt">
 
                                     <pre class="brush: js">
 
@@ -710,23 +709,22 @@
         <!--<div class="modal" id="myModal5">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    Header 
+                    Header
                     <div class="modal-header">
                         <h4 class="modal-title">Modal Heading</h4>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
-                     Modal body 
+                     Modal body
                     <div class="modal-body">
                         Modal 5 body..
                     </div>
-                     Modal footer 
+                     Modal footer
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>-->
-
         <!-- JavaScript Libraries -->
         <script src="Script/jquery.min.js"></script>
         <script src="Script/jquery-migrate.min.js"></script>
@@ -756,7 +754,6 @@
         <script src="Script/Custom.js"></script>
 
         <script>
-
             //Modal 1 Math Exercise
             $("#Calculate").click(function () {
                 //Step 1: get the user data
@@ -765,21 +762,18 @@
                 var num3 = Number($("#input3").val());
                 var num4 = Number($("#input4").val());
                 var num5 = Number($("#input5").val());
-
                 //Step 2: Make calculations with the data
                 var sum = num1 + num2 + num3 + num4 + num5;
                 var mean = (num1 + num2 + num3 + num4 + num5) / 5;
                 var min = Math.min(num1, num2, num3, num4, num5);
                 var max = Math.max(num1, num2, num3, num4, num5);
                 var product = num1 * num2 * num3 * num4 * num5;
-
                 //Step 3: Output the results
                 var output = "The sum of your number is " + sum
                 var output2 = "The average of your number is " + mean
                 var output3 = "Min number is " + min
                 var output4 = "Max number is " + max;
                 var output5 = "The product of your number is " + product
-
                 //step 4: Results
                 $("#results").text(output);
                 $("#results2").text(output2)
@@ -787,12 +781,10 @@
                 $("#results4").text(output4)
                 $("#results5").text(output5)
             });
-
             //clear button
             $("#Clear").click(function () {
                 $("#results,#results2,#results3,#results4,#results5,#results6").text("")
             });
-
             //Show & Hide Code
             $("#Code").hide();
             $("#Show").click(function () {
@@ -806,61 +798,48 @@
                 //Step 1: get the user data
                 var factorialnum1 = Number($("#factorialinput1").val());
                 var factorialoutput = 1;
-
                 //Step 2: Make calculations with the data
                 for (var i = 1; i <= factorialnum1; i++) {
                     factorialoutput *= i;
                 };
-
                 //step 3: Results
                 $("#factorialresults").text(factorialoutput)
             });
-
             //Clear button
             $("#factorialclear").click(function () {
                 $("#factorialresults").text("")
             });
-
             //Show & Hide Code
             $("#factorialcode").hide();
             $("#factorialshow").click(function () {
                 $("#factorialcode").toggle()
             });
         </script>
-               
+
         <script>
             //Modal 3 Palindrome
             $("#btnWord").click(function () {
-
                 var input = $("#txtWord").val();
                 var userInput = "";
-
                 for (var i = input.length - 1; i >= 0; i--) {
                     userInput += input[i];
                 }
-
                 if (userInput == input) {
                     $("#outputWord").text("This is Palindrome:" + ' ' + userInput);
                 } else {
                     $("#outputWord").text("This is not Palindrome:" + ' ' + userInput);
                 }
             });
-
             //Clear button
             $("#btnClearPalindrome").click(function () {
                 $("#outputWord").text("");
                 $("#txtWord").val('');
             });
-
             //Show & Hide Code
             $("#pcode").hide();
             $("#pshow").click(function () {
                 $("#pcode").toggle();
-                //if ($(this.text() == "Show Code") {
-                //    $(this).text("Hide Code");
-                //} else {
-                //    $(this).text("Show Code");
-                //}
+                
             });
         </script>
 
@@ -884,7 +863,6 @@
                 }
                 return returnValue;
             }
-
             //Call and use it-->
             function buzzIt() {
                 let output = "";
@@ -899,10 +877,22 @@
             SyntaxHighlighter.all()
         </script>
     </div>
-         
+
 </body>
 </html>
 
 
 
 
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

@@ -27,7 +27,7 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h2a, h3, h4, h4a, h5, h6 {
   margin: 0;
 }
 
@@ -36,10 +36,21 @@ h2 {
   font-weight: 600;
 }
 
+h2a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
 h4 {
   color: #292929;
   font-size: 14px;
   font-weight: 600;
+}
+
+h4a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 a {
@@ -128,6 +139,13 @@ p {
   font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+
+.section-title h2a {
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .form-control {
@@ -327,7 +345,7 @@ nav ul li a {
 #services {
   background: #f7f7f7;
   position: relative;
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 
 .owl-item {
@@ -498,6 +516,22 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+    .journal-block .journal-info .journal-txt h4a a {
+        display: block;
+        font-size: 19px;
+        line-height: 24px;
+        margin: 0 0 13px 0;
+        font-weight: 500;
+        color: #ffffff;
+        -moz-transition: all 0.5s ease-in-out 0s;
+        -ms-transition: all 0.5s ease-in-out 0s;
+        -o-transition: all 0.5s ease-in-out 0s;
+        -webkit-transition: all 0.5s ease-in-out 0s;
+        transition: all 0.5s ease-in-out 0s;
+    }
+
+
+
 .journal-block .journal-info .journal-txt h4 a:hover {
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
@@ -506,6 +540,15 @@ nav ul li a {
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
+
+    .journal-block .journal-info .journal-txt h4a a:hover {
+        color: #ffffff;
+        -moz-transition: all 0.5s ease-in-out 0s;
+        -ms-transition: all 0.5s ease-in-out 0s;
+        -o-transition: all 0.5s ease-in-out 0s;
+        -webkit-transition: all 0.5s ease-in-out 0s;
+        transition: all 0.5s ease-in-out 0s;
+    }
 
 .journal-block .journal-info .journal-txt p {
   margin: 0;
