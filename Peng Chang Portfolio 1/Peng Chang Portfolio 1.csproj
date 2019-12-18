@@ -104,6 +104,18 @@
     <Content Include="Images\Background\31799.jpg" />
     <Content Include="Images\Background\69.jpg" />
     <Content Include="Images\Background\88246.jpg" />
+    <Content Include="Images\Background\adrien-ledoux-mBHuEkka5wM-unsplash.jpg" />
+    <Content Include="Images\Background\brandi-redd-aJTiW00qqtI-unsplash.jpg" />
+    <Content Include="Images\Background\drew-beamer-5DD7-L4A4Uw-unsplash.jpg" />
+    <Content Include="Images\Background\jj-ying-7JX0-bfiuxQ-unsplash.jpg" />
+    <Content Include="Images\Background\joanna-kosinska-1_CMoFsPfso-unsplash.jpg" />
+    <Content Include="Images\Background\lou-batier-5EoWFa_Htdo-unsplash.jpg" />
+    <Content Include="Images\Background\math-U5mHl-uACe0-unsplash.jpg" />
+    <Content Include="Images\Background\patrick-tomasso-QMDap1TAu0g-unsplash.jpg" />
+    <Content Include="Images\Background\ryan-moreno-w1_4YH5IhDg-unsplash.jpg" />
+    <Content Include="Images\Background\scott-webb-OxHPDs4WV8Y-unsplash.jpg" />
+    <Content Include="Images\Background\sharon-mccutcheon-62vi3TG5EDg-unsplash.jpg" />
+    <Content Include="Images\Background\simon-matzinger-faN9WOldO9Q-unsplash.jpg" />
     <Content Include="Images\bank-bars-.png" />
     <Content Include="Images\beach-dawn-desktop-backgrounds-1532771.png" />
     <Content Include="Images\beauty-bloom-blue-67636.jpg" />
@@ -129,6 +141,7 @@
     <Content Include="Images\Icons\visual-studio-logo.png" />
     <Content Include="Images\Logo.png" />
     <Content Include="Images\palindrome.png" />
+    <Content Include="Images\Background\starfish-white-sand-beach.jpg" />
     <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
