@@ -11,7 +11,7 @@
 
 body {
     background: #ffffff;
-    color: #f8f9fa;
+    color: #000000;
     font-family: 'Poppins', helvetica;
     font-size: 20px;
     font-weight: 600;
@@ -32,7 +32,7 @@ h1, h2, h2a, h3, h4, h4a, h5, h6 {
 }
 
 h2 {
-  color: #292929;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -42,7 +42,7 @@ h2a {
 }
 
 h4 {
-    color: #f8f9fa;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 600;
 }
