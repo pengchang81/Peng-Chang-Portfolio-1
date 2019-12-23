@@ -171,6 +171,7 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="Properties\PublishProfiles\PChangPortfolio - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.0.0.js" />
     <Content Include="Scripts\jquery-3.0.0.min.js" />
@@ -250,7 +251,6 @@
     <Content Include="Fonts\ionicons.ttf" />
     <Content Include="Fonts\ionicons.woff" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\PengChang-Azure-Portfolio1 - Web Deploy.pubxml" />
     <Content Include="Scripts\jquery-3.0.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.0.0.min.map" />
     <Content Include="Scripts\umd\popper.min.js.map" />
